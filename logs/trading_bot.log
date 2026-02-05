@@ -1,0 +1,43 @@
+2026-02-05 22:47:46 | INFO     | bot.logging_config:setup_logging:33 - Logging initialized. Logs are being saved to logs/trading_bot.log
+2026-02-05 22:47:46 | ERROR    | bot.client:__init__:15 - BINANCE_API_KEY or BINANCE_API_SECRET not found in environment variables.
+2026-02-05 23:01:13 | INFO     | bot.logging_config:setup_logging:33 - Logging initialized. Logs are being saved to logs/trading_bot.log
+2026-02-05 23:01:15 | INFO     | bot.client:__init__:23 - Connected to Binance Futures TESTNET
+2026-02-05 23:01:17 | INFO     | bot.client:ping:33 - Successfully pinged Binance Futures API
+2026-02-05 23:02:22 | INFO     | bot.logging_config:setup_logging:33 - Logging initialized. Logs are being saved to logs/trading_bot.log
+2026-02-05 23:02:33 | INFO     | bot.client:__init__:23 - Connected to Binance Futures TESTNET
+2026-02-05 23:02:33 | INFO     | bot.orders:place_order:25 - Sending MARKET request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-05 23:02:34 | ERROR    | bot.orders:place_order:34 - Binance API Error: 401 - API-key format invalid.
+2026-02-05 23:03:36 | INFO     | bot.logging_config:setup_logging:33 - Logging initialized. Logs are being saved to logs/trading_bot.log
+2026-02-05 23:03:40 | INFO     | bot.client:__init__:23 - Connected to Binance Futures TESTNET
+2026-02-05 23:03:42 | INFO     | bot.client:ping:33 - Successfully pinged Binance Futures API
+2026-02-05 23:03:49 | INFO     | bot.logging_config:setup_logging:33 - Logging initialized. Logs are being saved to logs/trading_bot.log
+2026-02-05 23:05:14 | INFO     | bot.logging_config:setup_logging:33 - Logging initialized. Logs are being saved to logs/trading_bot.log
+2026-02-05 23:05:17 | INFO     | bot.client:__init__:31 - Connected to Binance Futures TESTNET (Timeout: 30s)
+2026-02-05 23:05:17 | INFO     | bot.orders:place_order:25 - Sending MARKET request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-05 23:05:19 | ERROR    | bot.orders:place_order:34 - Binance API Error: 400 - Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-02-05 23:06:53 | INFO     | bot.logging_config:setup_logging:33 - Logging initialized. Logs are being saved to logs/trading_bot.log
+2026-02-05 23:06:56 | INFO     | bot.client:__init__:31 - Connected to Binance Futures TESTNET (Timeout: 30s)
+2026-02-05 23:06:56 | INFO     | bot.orders:place_order:25 - Sending MARKET request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-05 23:06:59 | ERROR    | bot.orders:place_order:34 - Binance API Error: 400 - Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-02-05 23:08:09 | INFO     | bot.logging_config:setup_logging:33 - Logging initialized. Logs are being saved to logs/trading_bot.log
+2026-02-05 23:09:05 | INFO     | bot.logging_config:setup_logging:33 - Logging initialized. Logs are being saved to logs/trading_bot.log
+2026-02-05 23:09:07 | INFO     | bot.client:__init__:31 - Configured for Binance Futures TESTNET (Manual Override)
+2026-02-05 23:09:07 | INFO     | bot.orders:place_order:25 - Sending MARKET request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-02-05 23:09:10 | INFO     | bot.orders:place_order:30 - Order success: 12129750133
+2026-02-05 23:26:26 | INFO     | bot.logging_config:setup_logging:33 - Logging initialized. Logs are being saved to logs/trading_bot.log
+2026-02-05 23:26:27 | INFO     | bot.client:__init__:31 - Configured for Binance Futures TESTNET (Manual Override)
+2026-02-05 23:26:27 | INFO     | bot.orders:place_order:25 - Sending LIMIT request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 75000.0, 'timeInForce': 'GTC'}
+2026-02-05 23:26:28 | INFO     | bot.orders:place_order:30 - Order success: 12129856803
+2026-02-05 23:39:54 | INFO     | bot.logging_config:setup_logging:33 - Logging initialized. Logs are being saved to logs/trading_bot.log
+2026-02-05 23:39:55 | INFO     | bot.client:__init__:31 - Configured for Binance Futures TESTNET (Manual Override)
+2026-02-05 23:39:57 | INFO     | bot.client:ping:41 - Successfully pinged Binance Futures API
+2026-02-05 23:53:35 | INFO     | bot.logging_config:setup_logging:33 - Logging initialized. Logs are being saved to logs/trading_bot.log
+2026-02-05 23:53:35 | ERROR    | bot.client:__init__:15 - BINANCE_API_KEY or BINANCE_API_SECRET not found in environment variables.
+2026-02-05 23:53:51 | INFO     | bot.logging_config:setup_logging:33 - Logging initialized. Logs are being saved to logs/trading_bot.log
+2026-02-05 23:53:51 | INFO     | bot.client:__init__:31 - Configured for Binance Futures TESTNET (Manual Override)
+2026-02-05 23:53:51 | INFO     | bot.orders:place_order:25 - Sending MARKET request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-02-05 23:53:52 | INFO     | bot.orders:place_order:30 - Order success: 12130019835
+2026-02-05 23:54:16 | INFO     | bot.logging_config:setup_logging:33 - Logging initialized. Logs are being saved to logs/trading_bot.log
+2026-02-05 23:54:17 | INFO     | bot.client:__init__:31 - Configured for Binance Futures TESTNET (Manual Override)
+2026-02-05 23:54:17 | INFO     | bot.orders:place_order:25 - Sending LIMIT request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 75000.0, 'timeInForce': 'GTC'}
+2026-02-05 23:54:18 | INFO     | bot.orders:place_order:30 - Order success: 12130022383
