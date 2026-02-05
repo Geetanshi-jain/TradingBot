@@ -18,7 +18,7 @@ A simplified Python trading bot for placing orders on Binance Futures Testnet (U
 
 1. **Clone the repository**:
    ```bash
-   git clone <repo-url>
+   git clone (https://github.com/Geetanshi-jain/TradingBot.git)>\
    cd TradingBot
    ```
 
