@@ -60,10 +60,13 @@ python main.py stop-market BTCUSDT SELL 0.01 60000
 ## Screenshots
 
 ### 1. Market BUY Order
-![Market BUY Order](screenshots/buy_order.png)
+![WhatsApp Image 2026-02-05 at 11 21 34 PM](https://github.com/user-attachments/assets/9da4c1a5-346b-4c41-88e2-11f1386890d3)
+![WhatsApp Image 2026-02-05 at 11 20 50 PM](https://github.com/user-attachments/assets/25915ca0-0934-473e-9e82-85f5748be0ed)
+
 
 ### 2. Limit SELL Order
-![Limit SELL Order](screenshots/sell_order.png)
+![WhatsApp Image 2026-02-05 at 11 55 10 PM](https://github.com/user-attachments/assets/2df5e973-0857-4114-b5b2-9ff86015fbf0)
+
 
 ## Project Structure
 - `bot/`: Core package containing logic.
